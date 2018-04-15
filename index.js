@@ -5,3 +5,8 @@ function destructivelyAppendKitten(kittens, thing){
   kittens.push(thing);
   return kittens;
 }
+
+function destructivelyAddElementToEndOfArray(kittens, candyString){
+  kittens.push(candyString);
+  return kittens;
+}
